@@ -138,7 +138,7 @@ def solve_23b5c85d(x):
            shape[colour] = val_rect    #Store the shape
     
     #Remove shapes with size 0
-    size.pop(0)
+    size = { k:v for k,v in size.items() if v > 0} 
     min_size = min(size, key=size.get)
     
     #Get shape with minimum size
