@@ -86,8 +86,7 @@ np.transpose()
 # Tasks:
 22eb0ac0:
 #Input: Grid of size 10x10, where first and last cells of some rows are coloured
-#Output: Grid of size 10x10, where entire row is recoloured with 'x' colour-
- - if both the first and last cell of that row are of color 'x'
+#Output: Grid of size 10x10, where entire row is recoloured with 'x' colour if both the first and last cell of that row are of color 'x'
 
 1e32b0e9:
 #Input: Grid of size 17x17, which can be divided into 9 sub-blocks by 4 straight lines
