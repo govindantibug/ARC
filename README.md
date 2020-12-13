@@ -119,3 +119,22 @@ a85d4709:
 #Input: Grid of size 3x3, with each row having a Gray coloured cell
 #Output: Grid of size 3x3, where entire row is recoloured based on position of Gray cell in the input Grid
 
+7e0986d6 :
+#input : a grid with a shape and few patched elements with some other color , refered to as outliers in the code
+#ouput :matrix with correct color for the outliers
+
+67385a82 :
+#input : a grid with green elements
+#output : a grid with all the green elements colored with turquoise color (8) if they have atleast 1 neighbour
+
+dbc1a6ce :
+#input : a grid with multiple blue points
+#output :  a grid with all the intermediate spaces filled if there are two or more blue points in a row or column in a grid ,
+#          color used to fill is turquoise
+
+54d82841 :
+#input : a grid with 5 elements 3 in a row and 2 in the next row. the elements in the next row are alligned to first and last
+#        element of the upper row
+#output : the last element of the column of the missing element is painted by the color 4
+
+
