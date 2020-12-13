@@ -64,3 +64,59 @@ When your output grid is ready, click the green "Submit!" button to check your a
 After you've obtained the correct answer for the current test input grid, you can switch to the next test input grid for the task using the "Next test input" button (if there is any available; most tasks only have one test input).
 
 When you're done with a task, use the "load task" button to open a new task.
+
+###PTAI Assignment 3
+
+Numpy features:
+np.where()
+We've made extensive use of where() method to find positions of matching cells, or cells having a particular color
+
+np.unique()
+ Gives unique values in an array. We used it to get unique colours present in a grid.
+ 
+ np.reshape()
+	Reshapes the array based on parameters. We used it to convert the array into 1D because it simplified the comparision task.
+	
+collections.Counter()
+	Used to get values and their counts in an array.
+	
+np.transpose() 
+ Transpose the npdarray , making then columns now rows and vice versa
+
+Tasks:
+22eb0ac0:
+#Input: Grid of size 10x10, where first and last cells of some rows are coloured
+#Output: Grid of size 10x10, where entire row is recoloured with 'x' colour-
+# - if both the first and last cell of that row are of color 'x'
+
+1e32b0e9:
+#Input: Grid of size 17x17, which can be divided into 9 sub-blocks by 4 straight lines
+#Output: Grid of size 17x17, where the pattern in the first sub-block is copied to-
+# -other 8 sub-blocks based on:
+# 1) If part of the pattern already exists in the sub-block,-
+#    - then complete the pattern using sub-block border colour
+# 2) If the pattern doesnt exist, then draw the entire pattern using border color 
+
+23b5c85d:
+#Input: A grid of dynamic size with blocks of different sizes
+#Output: Extract a 4 sided shape with minimum size
+
+09629e4f:
+#Input: A grid of size 11x11, which is divided into 9 sub-blocks of size 3x3
+#Output: A grid of size 11x11, which is formed based on:
+# 1) Find the sub-block in input grid with highest number of black cells,
+#      lets call it "X"
+# 2) X can be further divided into 9 cells, shaped 3x3
+# 3) For each cell in 'X', colour the corresponding sub-block in output grid with-
+#     -colour of that cell
+#   For example: if the colour of first cell in X is green, -
+#   -then the first sub-block in output grid should be Green
+
+6430c8c4:
+#Input: Grid of size 9x4, with a yellow row dividing it into 2 parts
+#Output: Grid of size 4x4, with cells which are black in both parts coloured Green
+
+a85d4709:
+#Input: Grid of size 3x3, with each row having a Gray coloured cell
+#Output: Grid of size 3x3, where entire row is recoloured based on position of Gray cell in the input Grid
+
