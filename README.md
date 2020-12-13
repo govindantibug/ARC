@@ -129,12 +129,10 @@ a85d4709:
 
 dbc1a6ce :
 #input : a grid with multiple blue points
-#output :  a grid with all the intermediate spaces filled if there are two or more blue points in a row or column in a grid ,
-#          color used to fill is turquoise
+#output :  a grid with all the intermediate spaces filled if there are two or more blue points in a row or column in a grid ,color used to fill is turquoise
 
 54d82841 :
-#input : a grid with 5 elements 3 in a row and 2 in the next row. the elements in the next row are alligned to first and last
-#        element of the upper row
+#input : a grid with 5 elements 3 in a row and 2 in the next row. the elements in the next row are alligned to first and last element of the upper row
 #output : the last element of the column of the missing element is painted by the color 4
 
 
